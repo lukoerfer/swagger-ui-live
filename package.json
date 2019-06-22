@@ -1,0 +1,21 @@
+{
+  "name": "swagger-ui-live",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "swagger",
+    "swagger-ui"
+  ],
+  "author": "Lukas Körfer",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0",
+    "swagger-ui-dist": "^3.22.3"
+  }
+}
