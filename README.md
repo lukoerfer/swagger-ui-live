@@ -1,1 +1,1 @@
-# swagger-ui-live
+# Swagger UI Live
