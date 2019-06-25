@@ -17,7 +17,7 @@ function index() {
 }
 
 module.exports = function(spec, options = {}) {
-	options.port = options.port || 8000;
+	options.port = options.port || 3000;
 	options.host = options.host || '127.0.0.1';
 
 	let app = express();

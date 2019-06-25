@@ -28,7 +28,7 @@ var spec = fs.readFileSync('path/to/spec.json', 'utf-8')
 var server = swaggerLive(spec)
 ```
 
-Swagger UI should now be hosted at `http://localhost:8000/` serving the documentation for the specification from the given file. The returned `server` object can be used to `stop()` the server or to update the spec at any time (e.g. periodically or after detecting a change with a file watcher):
+Swagger UI should now be hosted at `http://localhost:3000/` serving the documentation for the specification from the given file. The returned `server` object can be used to `stop()` the server or to update the spec at any time (e.g. periodically or after detecting a change with a file watcher):
 
 ``` javascript
 server.update(spec)
