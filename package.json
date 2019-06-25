@@ -15,7 +15,9 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
-    "socket.io": "^2.2.0",
-    "swagger-ui-dist": "^3.22.3"
+    "socket.io": "^2.2.0"
+  },
+  "peerDependencies": {
+    "swagger-ui-dist": "*"
   }
 }
