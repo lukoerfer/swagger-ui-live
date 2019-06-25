@@ -6,7 +6,7 @@ const socketio = require('socket.io');
 const cheerio = require('cheerio');
 
 const swaggerUI = require('swagger-ui-dist').absolutePath();
-const swaggerLive = path.combine(path.resolve(__dirname), 'dist');
+const swaggerLive = path.join(path.resolve(__dirname), 'dist');
 
 function index() {
 	const $ = cheerio.load(fs.readFileSync(swaggerUI + "/index.html"));
