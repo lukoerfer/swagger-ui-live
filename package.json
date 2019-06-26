@@ -1,6 +1,6 @@
 {
   "name": "swagger-ui-live",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hosted Swagger UI with added support for local files and live updates",
   "keywords": [
     "swagger",
@@ -9,11 +9,11 @@
   ],
   "homepage": "https://github.com/lukoerfer/swagger-ui-live",
   "repository": {
-  	"type" : "git",
-  	"url" : "https://github.com/lukoerfer/swagger-ui-live.git"
+    "type": "git",
+    "url": "https://github.com/lukoerfer/swagger-ui-live.git"
   },
   "bugs": {
-  	"url" : "https://github.com/lukoerfer/swagger-ui-live/issues"
+    "url": "https://github.com/lukoerfer/swagger-ui-live/issues"
   },
   "author": {
     "name": "Lukas Körfer",
