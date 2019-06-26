@@ -4,7 +4,8 @@
   "description": "Hosted Swagger UI with added support for local files and live updates",
   "keywords": [
     "swagger",
-    "swagger-ui"
+    "swagger-ui",
+    "openapi"
   ],
   "homepage": "https://github.com/lukoerfer/swagger-ui-live",
   "repository": {
@@ -14,7 +15,11 @@
   "bugs": {
   	"url" : "https://github.com/lukoerfer/swagger-ui-live/issues"
   },
-  "author": "Lukas Körfer",
+  "author": {
+    "name": "Lukas Körfer",
+    "email": "lu.koerfer@googlemail.com",
+    "url": "http://www.lukaskoerfer.de"
+  },
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
