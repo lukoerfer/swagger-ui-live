@@ -22,6 +22,10 @@
   },
   "license": "MIT",
   "main": "index.js",
+  "scripts": {
+    "check": "standard",
+    "fix": "standard --fix"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
@@ -29,5 +33,8 @@
   },
   "peerDependencies": {
     "swagger-ui-dist": "*"
+  },
+  "devDependencies": {
+    "standard": "^14.1.0"
   }
 }
