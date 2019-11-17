@@ -8,20 +8,23 @@
     "openapi"
   ],
   "homepage": "https://github.com/lukoerfer/swagger-ui-live",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lukoerfer/swagger-ui-live.git"
-  },
   "bugs": {
     "url": "https://github.com/lukoerfer/swagger-ui-live/issues"
   },
+  "license": "MIT",
   "author": {
     "name": "Lukas Körfer",
     "email": "lu.koerfer@googlemail.com",
     "url": "http://www.lukaskoerfer.de"
   },
-  "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukoerfer/swagger-ui-live.git"
+  },
+  "scripts": {
+    "test": "standard"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
@@ -29,5 +32,8 @@
   },
   "peerDependencies": {
     "swagger-ui-dist": "*"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1"
   }
 }
